@@ -11,4 +11,4 @@ class PageController extends AppController
         debug($this->route);
         echo "Page view action";
     }
-}
+}  

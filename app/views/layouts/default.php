@@ -28,8 +28,16 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
             integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
         </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="/bootstrap/js/bootstrap.min.js"></script>
-
+        
+        <!-- Sahifaga viewlarda ulangan scriptlarni ulash -->
+        <?php
+            foreach($scripts as $script){
+                echo $script;
+            }
+        ?>
+        
     </body>
 
 </html>
