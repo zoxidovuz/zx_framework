@@ -1,0 +1,12 @@
+[2021-07-25 11:13:56] Error message: So'ralgan <b>app\controllers\XaxaController</b> mavjud emas!!! File: C:\OpenServer\domains\my-fw.loc\vendor\core\Router.php Line: 64 
+==============================
+
+[2021-07-25 11:13:56] Error message: require(C:\OpenServer\domains\my-fw.loc\public/errors/404.html): failed to open stream: No such file or directory File: C:\OpenServer\domains\my-fw.loc\vendor\core\ErrorHandler.php Line: 47 
+==============================
+
+[2021-07-25 11:13:56] Error message: require(): Failed opening required 'C:\OpenServer\domains\my-fw.loc\public/errors/404.html' (include_path='.') File: C:\OpenServer\domains\my-fw.loc\vendor\core\ErrorHandler.php Line: 47 
+==============================
+
+[2021-07-25 11:15:15] Error message: So'ralgan <b>app\controllers\XaxaController</b> mavjud emas!!! File: C:\OpenServer\domains\my-fw.loc\vendor\core\Router.php Line: 64 
+==============================
+

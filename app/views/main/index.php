@@ -1,6 +1,7 @@
 <ul>
     <?php foreach ($response as $value) : ?>
         <li><?= $value['title'] ?></li>
+        <div><?= $value['text']?></div>
     <?php endforeach ?>
 
 </ul>

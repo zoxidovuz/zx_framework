@@ -1,6 +1,4 @@
 <?php
-error_reporting(E_ALL);
-
 use vendor\core\App;
 use vendor\core\Router;
 
@@ -13,7 +11,7 @@ define('APP', dirname(__DIR__) . '/app');
 define('LIBS', dirname(__DIR__) . '/vendor/libs');
 define('CACHE', dirname(__DIR__) . '/tmp/cache');
 define('LAYOUT', 'default');
-
+define('DEBUG', 1);
 
 require __DIR__ . '/../vendor/core/Router.php';
 require __DIR__ . '/../vendor/libs/functions.php';

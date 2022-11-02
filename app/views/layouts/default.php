@@ -9,16 +9,14 @@
         <!-- Bootstrap CSS -->
         <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-        <title>Hello, world!</title>
+        <?= self::getMeta() ?>
     </head>
 
     <body>
         <!-- Sahifani chop etish (view->action) -->
-        <div class="container"><?= $content ?></div>
-
-        <!-- Debug bar -->
-        <div><?= debug(vendor\core\DB::$count_sql) ?></div>
-        <div><?= debug(vendor\core\DB::$quieries) ?></div>
+        <div class="container">
+            <?= $content ?>
+        </div>
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
         <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
