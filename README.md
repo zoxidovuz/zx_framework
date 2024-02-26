@@ -1,2 +1,2 @@
 # zx_framework
-My personal framework.  Written using the full Php programming language.  RedBean ORM supports 
+The custom framework is written using the core Php language with RedBean ORM supports 
