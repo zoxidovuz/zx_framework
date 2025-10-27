@@ -4,4 +4,6 @@ The custom framework is written using the core Php language with RedBean ORM sup
 
 ## Other Projects
 
-If you often work with YouTube videos, check out my small web tool: [YTubeLoop – Free YouTube Video Looper](https://ytubeloop.com) — it lets you loop any YouTube video endlessly with no ads or logins.
+If you often deal with text formatting, check out  
+[AllCapsLowerCase – Convert Text Instantly](https://allcapslowercase.com).  
+It’s a free online tool that instantly converts ALL CAPS text into clean, readable lowercase — no installs or sign-ups needed.
